@@ -17,8 +17,7 @@
 # In[1]:
 
 
-# Thilo Gelenk 06.06.2024 
-# email: thilo.gelenk@vodafone.com
+# Thilo 06.06.2024 
 #
 # UDACITY GenAI Course 01:  Apply Lightweight Fine-Tuning to a Foundation Model
 #    Pretrained Model, PEFT model with QLORA 
@@ -116,6 +115,7 @@ print(pt_model)
 ##         Please use the model as it is, since the model has already been set to the correct devices 
 ##         and casted to the correct `dtype`.
 device = torch.device("cuda") if torch.cuda.is_available() else torch.device("cpu")
+bQLoRA=False
 if bQLoRA==False:
     pt_model.to(device)
 device
