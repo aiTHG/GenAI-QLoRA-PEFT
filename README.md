@@ -1,4 +1,4 @@
-is file/code I did create for an Udacity GEN-AI course 01 task.
+This file/code I did create for an Udacity GEN-AI course 01 task.
 
 LORA and PEFT was working fine. Then I added QloRA and it resulted in an error message that I don't really understand what is wrong / what did I do wrong ?
 
